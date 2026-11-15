@@ -1,6 +1,6 @@
 ---
 name: nbme-usmle-style-mcq-quiz
-description: Write NBME/USMLE-style MCQ quizzes from a lecture or handout: 30-question pool (hard, very hard, tricky), then student and answer-key Word files.
+description: "Write NBME/USMLE-style MCQ quizzes from a lecture or handout: 30-question pool (hard, very hard, tricky), then student and answer-key Word files."
 ---
 
 # NBME/USMLE-style MCQ quiz writer
