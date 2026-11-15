@@ -14,9 +14,8 @@ A Claude skill that writes exam-quality multiple-choice questions from your lect
 ## Installation
 
 ### Claude (claude.ai / desktop app)
-1. Download this repository as a ZIP (green **Code** button, then **Download ZIP**).
-2. Make a ZIP that contains the folder `nbme-usmle-style-mcq-quiz` (with `SKILL.md` inside).
-3. Open **Customize > Skills**, click **+**, and upload the ZIP.
+1. Download `nbme-usmle-style-mcq-quiz.zip` from the [Releases](https://github.com/mrmuntather-droid/nbme-usmle-mcq-skill/releases) page.
+2. Open **Customize > Skills**, click **+**, and upload the ZIP.
 
 ### Claude Code
 Copy the folder `nbme-usmle-style-mcq-quiz` into `~/.claude/skills/`.
@@ -24,6 +23,12 @@ Copy the folder `nbme-usmle-style-mcq-quiz` into `~/.claude/skills/`.
 ## Usage
 Send Claude your lecture or handout (and the previous quiz, if you have one), then say, for example:
 "Make quiz questions from this lecture, harder than last time."
+
+## Feedback
+Found a problem or have an idea? Open an [issue](https://github.com/mrmuntather-droid/nbme-usmle-mcq-skill/issues) and I will take a look.
+
+## Download
+Get the ready-to-upload ZIP from the [Releases](https://github.com/mrmuntather-droid/nbme-usmle-mcq-skill/releases) page.
 
 ## License
 MIT. See [LICENSE](LICENSE).
