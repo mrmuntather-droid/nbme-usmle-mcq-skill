@@ -1,6 +1,6 @@
 # NBME/USMLE-Style MCQ Quiz Skill for Claude
 
-A Claude skill that writes exam-quality multiple-choice questions from your lecture or handout, following NBME/USMLE item-writing standards.
+A Claude skill that writes exam-quality multiple-choice questions from your lecture or handout, following NBME/USMLE item-writing standards. It is aimed at lecturers and students in medicine, pharmacy, pharmacology and other health sciences.
 
 **Author:** Muntather Ali, Pharmacist
 
@@ -11,6 +11,9 @@ A Claude skill that writes exam-quality multiple-choice questions from your lect
 - After you pick your questions, creates **two Word files**: a student version (Name / Group / Score) and an answer key (✓, Answer, Reason).
 - Spreads correct answers across a-e and never makes the correct option the longest.
 
+## Data handling and safety
+This plugin contains only instructions (a single `SKILL.md` file). It runs no code, installs no packages, starts no servers, makes no network requests, sends no data anywhere and does not change any Claude permission settings. It only guides how Claude writes the questions from the material you give it.
+
 ## Installation
 
 ### Claude (claude.ai / desktop app)
@@ -18,7 +21,7 @@ A Claude skill that writes exam-quality multiple-choice questions from your lect
 2. Open **Customize > Skills**, click **+**, and upload the ZIP.
 
 ### Claude Code
-Copy the folder `nbme-usmle-style-mcq-quiz` into `~/.claude/skills/`.
+Copy the folder `skills/nbme-usmle-style-mcq-quiz` into `~/.claude/skills/`.
 
 ## Usage
 Send Claude your lecture or handout (and the previous quiz, if you have one), then say, for example:
@@ -26,9 +29,6 @@ Send Claude your lecture or handout (and the previous quiz, if you have one), th
 
 ## Feedback
 Found a problem or have an idea? Open an [issue](https://github.com/mrmuntather-droid/nbme-usmle-mcq-skill/issues) and I will take a look.
-
-## Download
-Get the ready-to-upload ZIP from the [Releases](https://github.com/mrmuntather-droid/nbme-usmle-mcq-skill/releases) page.
 
 ## License
 MIT. See [LICENSE](LICENSE).

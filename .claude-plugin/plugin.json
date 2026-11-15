@@ -1,0 +1,11 @@
+{
+  "name": "nbme-usmle-style-mcq-quiz",
+  "displayName": "NBME/USMLE-Style MCQ Quiz Writer",
+  "version": "1.0.0",
+  "description": "Writes NBME/USMLE-style multiple-choice questions from a lecture or handout: a 30-question pool, then student and answer-key Word files.",
+  "author": {
+    "name": "Muntather Ali",
+    "url": "https://github.com/mrmuntather-droid"
+  },
+  "license": "MIT"
+}
