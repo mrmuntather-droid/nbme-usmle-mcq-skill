@@ -1,6 +1,6 @@
 ---
 name: nbme-usmle-style-mcq-quiz
-description: "Write NBME/USMLE-style MCQ quizzes from a lecture or handout: 30-question pool (hard, very hard, tricky), then student and answer-key Word files."
+description: "Write NBME/USMLE-style multiple-choice questions (clinical vignette, one best answer, five options a to e) from a lecture, handout, slides or topic, for medical, pharmacy, nursing and other health-science students. Use when the user asks to make a quiz, exam, MCQs, test questions, a question bank or practice questions, or asks for harder or trickier questions, including requests in Arabic such as أسئلة أو كويز أو امتحان أو اختيار من متعدد. First give a pool of 30 MCQs in the chat (10 hard, 10 very hard, 10 tricky with look-alike options) so the user can pick the best ones, then after the pick build two Word files, a student version (Name, Group, Score) and an answer key (correct answer and reason). Not for essay questions or flashcards."
 ---
 
 # NBME/USMLE-style MCQ quiz writer
